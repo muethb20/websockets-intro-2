@@ -1,0 +1,20 @@
+{
+  "name": "webserver-ts",
+  "version": "1.0.0",
+  "description": "A TypeScript WebSocket server with date generation strategies.",
+  "main": "dist/ws_server.js",
+  "scripts": {
+    "start": "node dist/ws_server.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only ws_server.ts"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.13",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
